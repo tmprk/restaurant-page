@@ -1,0 +1,38 @@
+/* CSS Reset */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 1;
+	font-family: "Inter", -apple-system, sans-serif;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Starts Here */
+
+#header {
+  background-color: papayawhip;
+  height: 300px;
+}
